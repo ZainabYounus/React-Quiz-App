@@ -45,3 +45,16 @@ h2.userGreeting {
   font-size: 18px;
   color: blue;
 }
+h2.Pass {
+  color: green;
+  font-weight: bold;
+  font-family: cursive;
+  text-transform: uppercase;
+}
+
+h2.Fail {
+  color: red;
+  font-weight: bold;
+  font-family: cursive;
+  text-transform: uppercase;
+}

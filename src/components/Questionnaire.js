@@ -45,7 +45,9 @@ class Questionnaire extends Component {
             <div>
                 <QuizArea handleClick={this.handleClick} 
                 isFinished={this.state.isFinished} 
-                dataSet={this.state.dataSet[this.state.current]}/>
+                dataSet={this.state.dataSet[this.state.current]}
+                correct = {this.state.correct}
+                incorrect = {this.state.incorrect}/>
 
                 <ScoreArea correct={this.state.correct} incorrect={this.state.incorrect}/>
                 
